@@ -6,3 +6,4 @@ mongoose.connect(process.env.MONGODB_URI, (err) => {
 });
 
 require('./Fdata.model');
+require('./login.model');
